@@ -19,3 +19,8 @@ body {
 	justify-content: center;
 	padding: 2.5% 5%;
 }
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}

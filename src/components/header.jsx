@@ -1,44 +1,82 @@
 import logo from '../assets/icons/Pagelogo.png'
 
+import { NavLink } from 'react-router-dom'
+
 export default function Header() {
     return (
-        <header class="bg-[#002447] text-white px-8 py-6">
-            <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-6">
+        <header className="bg-[#002142] text-white px-6 py-4 font-sans">
+  <div className="max-w-6xl mx-auto flex items-center gap-5">
+    
+    <div className="w-12 h-12 bg-[#d4af37] flex-shrink-0 flex items-center justify-center overflow-hidden">
+      <img src={logo} alt="Logo" className="w-full h-full object-cover" />
+    </div>
 
-                <div class="flex items-center gap-4">
-                    <div class="w-16 h-16 bg-[#c4a45a] flex items-center justify-center rounded-sm overflow-hidden">
-                        <img src={logo} alt="Logo" class="object-contain p-1"/>
-                    </div>
+    <div className="flex flex-col gap-3">
+      
+      <h1 className="text-2xl font-serif font-bold tracking-tight uppercase leading-none">
+        Stjørdal Kvinne og Familielag
+      </h1>
 
-                    <h1 class="text-3xl md:text-4xl font-serif font-bold tracking-wide uppercase">
-                        Stjørdal Kvinne og Familielag
-                    </h1>
-                </div>
+      {/* NavLink automaticly track the active link */}
+      <nav className="flex gap-x-6 text-[11px] font-bold uppercase tracking-widest items-center">
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) =>
+                                    isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
+                                }
+          >
+            Hjem
+        </NavLink>
+        <NavLink
+          to="/omoss"
+          end
+          className={({ isActive }) =>
+                                    isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
+                                }
+          >
+            Om Oss
+        </NavLink>
+        <NavLink
+          to="/retrocafe"
+          end
+          className={({ isActive }) =>
+                                    isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
+                                }
+          >
+            Retrocafe
+        </NavLink>
+        <NavLink
+          to="/kalender"
+          end
+          className={({ isActive }) =>
+                                    isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
+                                }
+          >
+            Kalender
+        </NavLink>
+        <NavLink
+          to="/blimedlem"
+          end
+          className={({ isActive }) =>
+                                    isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
+                                }
+          >
+            Bli Medlem
+        </NavLink>
+        <NavLink
+          to="/kontaktoss"
+          end
+          className={({ isActive }) =>
+                                    isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
+                                }
+          >
+            Kontakt Oss
+        </NavLink>
+      </nav>
 
-            </div>
-
-            <nav class="max-w-7xl mx-auto mt-6">
-                <ul class="flex flex-wrap gap-x-8 gap-y-2 text-sm font-semibold uppercase tracking-wider">
-                    <li>
-                        <a href="#" class="border-b-2 border-white pb-1">Hjem</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-300 transition-colors">Om Oss</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-300 transition-colors">Retrocafe</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-300 transition-colors">Kalender</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-300 transition-colors">Bli Medlem</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-300 transition-colors">Kontakt Oss</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    </div>
+  </div>
+</header>
     )
 }
