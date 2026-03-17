@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <header className="bg-[#1f3a5f] text-white px-6 py-4 font-sans">
+    <header className="bg-[#1f3a5f] text-white px-6 py-4">
       <div className="max-w-6xl mx-auto flex items-center gap-5">
 
         <div className="w-12 h-12 bg-[#d4af37] flex-shrink-0 flex items-center justify-center overflow-hidden">
@@ -13,7 +13,7 @@ export default function Header() {
 
         <div className="flex flex-col gap-3">
 
-          <h1 className="text-2xl font-serif font-bold tracking-tight uppercase leading-none">
+          <h1 className="text-2xl font-bold tracking-tight uppercase text-left leading-none">
             Stjørdal Kvinne og Familielag
           </h1>
 

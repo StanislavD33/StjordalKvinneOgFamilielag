@@ -15,7 +15,7 @@ function Footer() {
 
                 {/* Text Content */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold tracking-wide text-left">
+                    <h2 className="text-2xl font-bold tracking-wide text-left">
                         Norges Kvinne og <br />
                         Familieforbund
                     </h2>

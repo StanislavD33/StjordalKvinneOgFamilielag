@@ -33,7 +33,7 @@ function Homepage() {
             className="w-full max-w-6xl mx-auto"
           />
           <div className="max-w-md text-left">
-            <h3 className="inline-block uppercase tracking-widest bg-black p-2">
+            <h3 className="inline-block uppercase tracking-widest font-semibold bg-black p-2">
               Vårt arbeid
             </h3>
             <div className="bg-[#1f3a5f] text-white p-2">
@@ -113,7 +113,7 @@ function Homepage() {
                 className="h-105 mx-auto mb-6 object-contain"
               />
 
-              <button className="bg-red-500 px-5 py-2 rounded-full text-sm font-medium hover:bg-red-600 transition">
+              <button className="bg-red-500 px-5 py-2 rounded-full text-sm font-bold hover:bg-red-600 transition">
                 {card.title}
               </button>
             </div>
