@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 import Header from './components/header.jsx'
+import Footer from './components/footer.jsx'
 
 import Homepage from './Homepage.jsx'
 
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </StrictMode>,
 )
