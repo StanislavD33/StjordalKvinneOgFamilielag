@@ -7,6 +7,7 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 
 import Homepage from './Homepage.jsx'
+import AboutUs from './pages/AboutUs.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Header/>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/omoss" element={<AboutUs/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
