@@ -8,6 +8,7 @@ import Footer from './components/Footer.jsx'
 
 import Homepage from './Homepage.jsx'
 import AboutUs from './pages/AboutUs.jsx'
+import Retrocafe from './pages/Retrocafe.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/omoss" element={<AboutUs/>}/>
+        <Route path="/retrocafe" element={<Retrocafe/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

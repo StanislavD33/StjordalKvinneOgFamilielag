@@ -18,8 +18,6 @@ function Homepage() {
     { title: 'Kontakt oss', img: ContactIcon }
   ]
 
-  console.log(cards)
-
   return (
     <section className="bg-white py-16 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
