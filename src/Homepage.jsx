@@ -22,7 +22,7 @@ function Homepage() {
     <section className="bg-white py-16 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
 
-        {/* HERO */}
+        {/* HERO */} 
         <div className="grid md:grid-cols-2 gap-10 items-center text-xl">
 
           <img
@@ -31,13 +31,13 @@ function Homepage() {
             className="w-full max-w-6xl mx-auto"
           />
           <div className="max-w-md text-left">
-            <h3 className="inline-block uppercase tracking-widest font-semibold bg-black p-2">
+            <h3 className="inline-block uppercase tracking-widest font-semibold bg-black p-3 text-xl">
               Vårt arbeid
             </h3>
             <div className="bg-[#1f3a5f] text-white p-2">
 
 
-              <p className="leading-relaxed uppercase">
+              <p className="leading-normal uppercase text-xl">
                 Vi jobber for å skape et åpent og inkluderende fellesskap i
                 Stjørdal. Vi ønsker å forebygge utenforskap, styrke samholdet i
                 nærmiljøet og vise at laget vårt er for alle – uansett alder og
@@ -49,48 +49,49 @@ function Homepage() {
         </div>
 
         {/* TEXT SECTIONS */}
-        <div className="grid md:grid-rows-3 gap-12 text-xl text-black leading-relaxed text-left">
+        <div className="grid md:grid-rows-3 gap-12 text-black text-left">
 
           <div>
-            <h4 className="font-semibold mb-1 text-2xl uppercase">Hvem er vi?</h4>
-            <p>
+            <h4 className="font-semibold mb-2 text-2xl uppercase">Hvem er vi?</h4>
+
+            <p className="mb-4 text-xl leading-tight font-normal">
               Stjørdal Kvinne- og Familielag er et lokalt lag i Norges
-              Kvinne- og Familieforbund.
-            </p>
-            <p className="mb-4">
+              Kvinne- og Familieforbund.<br/>
               Vi er en engasjert gruppe kvinner og
               menn som ønsker å skape et inkluderende og trygt fellesskap i
               nærmiljøet.
             </p>
-            <p>
+
+            <p className="mb-4 text-xl leading-tight font-normal">
               I dag samarbeider vi med E-fiks Gaming og Driver Retrocafe - en sosial møteplass for ungdom og voksne. Vi er små i antall, men store i engasjement.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-1 text-2xl uppercase">Vårt formål</h4>
-            <p className="mb-4">
+            <h4 className="font-semibold mb-2 text-2xl uppercase">Vårt formål</h4>
+
+            <p className="mb-4 text-xl leading-tight font-normal">
               Vårt formål er å styrke fellesskap, tilhørighet og inkludering i
               Stjørdal. Vi ønsker å bidra til et nærmiljø der både ungdom og voksne blir sett, hørt og verdsatt.
             </p>
-            <p>
+
+            <p className="mb-4 text-xl leading-tight font-normal">
               Gjennom samarbeid, frivillighet og aktiviteter arbeider
               vi for å forebygge utenforskap og skape trygge møteplasser for
               alle.
-            </p>
+            </p>           
           </div>
 
           <div>
-            <h4 className="font-semibold mb-1 text-2xl uppercase">Vår visjon</h4>
-            <p>
-              Vår visjon er et lokalsamfunn der ingen faller utenfor.
-            </p>
-            <p className="mb-4">
-              Vi ønsker
-              å være en synlig og positiv aktør som bygger broer mellom
+            <h4 className="font-semibold mb-2 text-2xl uppercase">Vår visjon</h4>
+
+            <p className=" mb-4 text-xl leading-tight font-normal">
+              Vår visjon er et lokalsamfunn der ingen faller utenfor.<br/>
+              Vi ønsker å være en synlig og positiv aktør som bygger broer mellom
               generasjoner og skaper rom for både historie og nytenkning.
             </p>
-            <p>
+
+            <p className="mb-4 text-xl leading-tight font-normal">
               Vi tror at små lag kan gjøre en stor forskjell - når vi står sammen.
             </p>
           </div>

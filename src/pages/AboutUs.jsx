@@ -16,19 +16,19 @@ function AboutUs() {
                     />
                     {/* Overlay button */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="bg-[#2f4a6d] text-white px-16 py-6 rounded-xl text-2xl tracking-widest font-semibold shadow-lg">
+                        <div className="bg-[#2f4a6d] text-white px-16 py-6 rounded-xl text-2xl tracking-widest font-bold shadow-lg">
                             OM OSS
                         </div>
                     </div>
                 </div>
 
                 {/* TEXT CONTENT */}
-                <div className="mt-12 text-[#333] text-left">
-                    <h2 className="text-xl md:text-2xl font-bold uppercase mb-6">
+                <div className="mt-12 text-black text-left">
+                    <h2 className="text-2xl font-bold uppercase mb-6">
                         VI ER STJØRDAL KVINNE OG FAMILIELAG!
                     </h2>
 
-                    <div className="space-y-10 text-xl leading-relaxed">
+                    <div className="space-y-10 text-xl font-medium leading-tight">
                         <p>
                             I 2020 hadde laget drevet barnehage i nesten 30 år i et hus laget eide.
                             Omstendighetene gjorde det slik at vi ble nødt å legge ned barnehagen,

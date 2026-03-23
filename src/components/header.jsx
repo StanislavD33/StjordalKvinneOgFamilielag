@@ -44,7 +44,7 @@ export default function Header() {
                 isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
               }
             >
-              Retrocafe
+              Retrokafe
             </NavLink>
             <NavLink
               to="/kalender"
