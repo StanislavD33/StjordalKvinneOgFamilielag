@@ -31,7 +31,7 @@ function Homepage() {
             className="w-full max-w-6xl mx-auto"
           />
           <div className="max-w-md text-left">
-            <h3 className="inline-block uppercase tracking-widest font-semibold bg-black p-3 text-xl">
+            <h3 className="inline-block uppercase tracking-widest font-semibold bg-black p-3 text-xl text-white">
               Vårt arbeid
             </h3>
             <div className="bg-[#1f3a5f] text-white p-2">

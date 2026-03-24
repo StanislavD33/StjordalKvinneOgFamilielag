@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import './css/index.css'
 
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
@@ -9,6 +9,7 @@ import Footer from './components/Footer.jsx'
 import Homepage from './Homepage.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import Retrocafe from './pages/Retrocafe.jsx'
+import MyCalendar from './components/Calendar.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Homepage />} />
         <Route path="/omoss" element={<AboutUs/>}/>
         <Route path="/retrocafe" element={<Retrocafe/>}/>
+        <Route path="/calendar" element={<MyCalendar/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

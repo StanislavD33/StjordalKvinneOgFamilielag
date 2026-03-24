@@ -47,7 +47,7 @@ export default function Header() {
               Retrokafe
             </NavLink>
             <NavLink
-              to="/kalender"
+              to="/calendar"
               end
               className={({ isActive }) =>
                 isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"

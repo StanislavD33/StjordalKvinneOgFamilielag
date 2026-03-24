@@ -7,8 +7,8 @@ html, body {
 }
 
 body {
-	background: linear-gradient(to right, #18181b, #0f172a);
-	color: #f1f1f1;
+	background: #f5f5f5;
+	color: black;
 	font-size: 14px;
 	font-family: 'Inter', sans-serif;
 }
