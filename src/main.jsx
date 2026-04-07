@@ -13,6 +13,7 @@ import Homepage from './Homepage.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import Retrocafe from './pages/Retrocafe.jsx'
 import MyCalendar from './components/Calendar.jsx'
+import MemberForm from './pages/BliMedlem.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -23,8 +24,9 @@ createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/omoss" element={<AboutUs />} />
-          <Route path="/retrocafe" element={<Retrocafe />} />
-          <Route path="/calendar" element={<MyCalendar />} />
+          <Route path="/retrokafe" element={<Retrocafe />} />
+          <Route path="/calender" element={<MyCalendar />} />
+          <Route path="/bli-medlem" element={<MemberForm />} />
         </Routes>
         <Footer />
       </BrowserRouter>

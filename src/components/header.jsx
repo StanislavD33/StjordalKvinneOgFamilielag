@@ -38,7 +38,7 @@ export default function Header() {
               Om Oss
             </NavLink>
             <NavLink
-              to="/retrocafe"
+              to="/retrokafe"
               end
               className={({ isActive }) =>
                 isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
@@ -47,7 +47,7 @@ export default function Header() {
               Retrokafe
             </NavLink>
             <NavLink
-              to="/calendar"
+              to="/calender"
               end
               className={({ isActive }) =>
                 isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
@@ -56,22 +56,13 @@ export default function Header() {
               Kalender
             </NavLink>
             <NavLink
-              to="/blimedlem"
+              to="/bli-medlem"
               end
               className={({ isActive }) =>
                 isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
               }
             >
-              Bli Medlem
-            </NavLink>
-            <NavLink
-              to="/kontaktoss"
-              end
-              className={({ isActive }) =>
-                isActive ? "border-b-[1px] border-white leading-tight" : "hover:text-gray-300 transition-colors"
-              }
-            >
-              Kontakt Oss
+              Bli Medlem/Kontakt Oss
             </NavLink>
           </nav>
 

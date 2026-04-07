@@ -39,7 +39,6 @@ const localizer = dateFnsLocalizer({
 })
 
 function MyCalendar() {
-    // ИСПРАВЛЕНИЕ 1: Все хуки на самом верху!
     const [date, setDate] = useState(new Date());
     const [view, setView] = useState('month');
 
@@ -65,7 +64,7 @@ function MyCalendar() {
         end: new Date(event.end),
     })) || []
 
-    console.log(events);
+    //console.log(events);
 
     return (
         <section className='max-w-7xl mx-auto px-6 py-16 items-center bg-[#f5f5f5]'>
